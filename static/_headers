@@ -1,3 +1,8 @@
+# STAGING ONLY — do not merge to main.
+# noindex header is a second line of defense beyond robots.txt.
+/*
+  X-Robots-Tag: noindex, nofollow
+
 /*.css
 /*.js
-Access-Control-Allow-Origin: *
+  Access-Control-Allow-Origin: *
