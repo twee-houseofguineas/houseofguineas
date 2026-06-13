@@ -6,10 +6,6 @@ type = "product"
 weight = 3
 [params]
   og_image = "clinical-series-brand.jpg"
-[menu.main]
-  name = "Guinea Pig Fleece Cage Liners"
-  parent = "clinical"
-  weight = 1
 [sitemap]
   priority = 0.9
 +++
