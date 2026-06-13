@@ -68,6 +68,11 @@ weight = 1
    url = "/services/"
   identifier = "rates"
   weight = 2
+[[menu.main]]
+  name = "Clinical Series Liners"
+  url = "/clinical-series-fleece-cage-liners/"
+  identifier = "clinical"
+  weight = 3
 
 [params.sharethis]
 property = "123456789012345678901234"
