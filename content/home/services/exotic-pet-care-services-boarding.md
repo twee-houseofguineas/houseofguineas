@@ -9,6 +9,7 @@ weight = 3
   parent = "rates"
 [params]
   og_image = "Luca.jpg"
+  hideFromHome = true
   serviceType = "Exotic Pet Boarding"
   price = "$75"
   priceUnit = "/night"

@@ -1,6 +1,7 @@
 
 <div class="row service-card-row">
     {{ range where .Data.Pages "Section" .Section }}
+      {{ if .Params.hideFromHome }}{{ continue }}{{ end }}
       <div class="col-sm-6 col-md-4">
         {{ if .Params.highlights }}
         {{/* ── Enriched card (In-Home, Boarding) ── */}}
