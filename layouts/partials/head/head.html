@@ -307,7 +307,7 @@
 </script>
 {{ end }}
 
-{{ if eq .RelPermalink "/clinical-series-guinea-pig-fleece-cage-liners/" }}
+{{ if or (eq .RelPermalink "/clinical-series-guinea-pig-fleece-cage-liners/") (eq .RelPermalink "/clinical-series-fleece-cage-liners/") }}
 <!-- Structured Data: FAQPage (Clinical Series Product Page — all 7 FAQs) -->
 <script type="application/ld+json">
 {
